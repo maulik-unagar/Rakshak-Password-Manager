@@ -1,8 +1,15 @@
 # 🔐 Rakshak – Password Manager
 
-Rakshak is a secure and user-friendly password manager that helps you store, manage, and protect your credentials with ease.
+A secure and intuitive password manager to store, manage, and protect your login credentials — all in one place.  
+Built with simplicity, security, and user experience in mind. 🛡️
 
 ---
+
+## 📸 Project Preview
+
+<p align="center">
+  <img src="./public/Screenshot%202025-05-02%20231533.png" alt="Rakshak App Screenshot" width="700"/>
+</p>
 
 ## 🛡️ Features
 
