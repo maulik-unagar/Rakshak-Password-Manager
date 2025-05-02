@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-gradient {
+    background: linear-gradient(to right, #63e, #4dc8ff, #63e);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient-shift 3s ease infinite;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Adds depth */
+  }
+  .passwords h2 {
+    background: linear-gradient(to right, #63e, #4dc8ff); /* Gradient matching form colors */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 2rem; /* Adjusted font size */
+    padding: 20px;
+    text-align: left;
+    margin-left: 5vw;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+  }
+
+  
+  @keyframes gradient-shift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
